@@ -1,0 +1,22 @@
+input[type="radio"] {
+    visibility: hidden;
+}
+
+.activateHome:hover,
+.activateRed:hover,
+.activateOrange:hover,
+.activatePurple:hover,
+.activateGreen:hover {
+    position: relative;
+    z-index: 1;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin: -10px;
+    width: 40px;
+    border-radius: 90%;
+}
+
+.activateRed:hover {
+    padding: 20px;
+    margin: -20px;
+}
